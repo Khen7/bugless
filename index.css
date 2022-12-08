@@ -1,0 +1,7 @@
+@import url('component/nav.css');
+@import url('footer.css');
+
+*{
+    padding: 0;
+    margin: 0;
+}
