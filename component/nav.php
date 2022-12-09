@@ -1,9 +1,20 @@
 <nav class="navbar bar1 navbar-light">
-  <div class="container-fluid">
+  <div class="container-fluid left">
+  <div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<button class="openbtn" onclick="openNav()">☰ Menu</button>
+<!--
     <ul class="list ml-auto">
       <li><a href="#">Home</a></li>
       <li><a href="#">About Us</a></li>
     </ul>
+    -->
+    </div>
     <div class="logo">
     <a href="#"><img src="img/logox.png"></a>
     </div>
