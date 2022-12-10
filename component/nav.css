@@ -70,7 +70,7 @@ nav{
     height: 100%;
 }
 .right{
-    width: 35%;
+    width: 45%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -103,7 +103,6 @@ nav{
     background-color: black; 
 }
 .group2{
-    background-color: #bbb;
     margin: auto;
     width: 95%;
 }
@@ -115,7 +114,6 @@ nav{
 }
 .group2 ul li{
     font-size: 20px;
-    padding-right: 10px;
     display: inline;
     list-style: none;
 }
