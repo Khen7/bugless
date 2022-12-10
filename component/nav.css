@@ -3,23 +3,23 @@ nav{
     height: 100px;
     background-color: rgb(255, 255, 255);
 }
-.group{
+.group1{
     display: flex;
     margin: auto;
     width: 95%;
     height: 80px;
 }
-    .group .left{
+.group1 .left{
     margin: auto;
     padding: 0;
     margin-left: 0;
     width: 35%;
 }
-  .sidepanel  {
+.sidepanel  {
     width: 0;
     position: fixed;
     z-index: 1;
-    height: 400px;
+    height: 450px;
     top: 23px;
     left: 0;
     background-color: #111;
@@ -28,27 +28,27 @@ nav{
     padding-top: 60px;
   }
   
-  .sidepanel a {
+.sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: rgb(212, 212, 212);
     display: block;
     transition: 0.3s;
   }
   
-  .sidepanel a:hover {
-    text-decoration: underline;
+.sidepanel a:hover {
+    color: white;
   }
   
-  .sidepanel .closebtn {
+.sidepanel .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
   }
   
-  .openbtn {
+.openbtn {
     font-size: 20px;
     cursor: pointer;
     background-color: #111;
@@ -57,7 +57,7 @@ nav{
     border: none;
   }
   
-  .openbtn:hover {
+.openbtn:hover {
     background-color:#444;
   }
 .navbar .logo{
@@ -80,6 +80,7 @@ nav{
     align-items: flex-start;
 }
 .navbar .right .user{
+    margin: auto;
     width: 20%;
     font-size: 30px;
 }
@@ -92,7 +93,7 @@ nav{
 }
 .user i:hover{
     cursor: pointer;
-    color: #0d6efd;
+    color: black;
 }
 .bar2{
     position: sticky;
@@ -101,27 +102,29 @@ nav{
     height: 50px;
     background-color: black; 
 }
-.list2{
+.group2{
+    background-color: #bbb;
     margin: auto;
-    width: 90%;
+    width: 95%;
 }
-.list2 ul{
+.group2 ul{
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.list2 ul li{
+.group2 ul li{
     font-size: 20px;
-    padding-right: 40px;
+    padding-right: 10px;
     display: inline;
     list-style: none;
 }
-.list2 ul li a{
-    color: white;
+.group2 ul li a{
+    color: rgb(212, 212, 212);
     padding: 10px;
     text-decoration: none;
+    transition: 0.3s;
 }
-.list2 ul li a:hover{
-    text-decoration: underline;
+.group2 ul li a:hover{
+    color: white;
 }

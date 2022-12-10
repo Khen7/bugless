@@ -12,6 +12,6 @@
  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="fonts-6/css/all.css">
+    <link rel="stylesheet" href="font-6/css/all.css">
 </head>
 </html>
