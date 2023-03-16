@@ -1,3 +1,4 @@
+
 <nav class="navbar bar1 navbar-light">
   <div class="group1">
   <div class="container-fluid left">
@@ -25,40 +26,31 @@
     </div>
 </nav>
 
-<nav class="navbar bar2">
-<div class="group2">
-  <ul>
-    <li><a href="#">HTML/CSS</a></li>
-    <li><a href="#">Javascript</a></li>
-    <li><a href="#">PHP</a></li>
-    <li><a href="#">Python</a></li>
-    <li><a href="#">Java</a></li>
-    <li><a href="#">C++</a></li>
-    <li><a href="#">Ruby</a></li>
-    <li><a href="#">C#</a></li>
-    <li><a href="#">React</a></li>
-    <li><a href="#">MySql</a></li>
-    <li><a href="#">Node.Js</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-    <li><a href="#">Saas</a></li>
-  </ul>
-</div>
+<nav class="container">
+  <div class="horizontal-scroll">
+    <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+  <div class="list">
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+    <div class="l1"><a href="#">Freelance</a></div>
+  </div>
 </nav>
